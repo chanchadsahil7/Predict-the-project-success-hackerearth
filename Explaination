@@ -1,0 +1,10 @@
+Training :	
+	1) Cleaned the Columns for NaN values.
+	2) Fitted and Transformed Columns (Name,Desc,Keywords,Currency) into Countvectorized form.
+	3) Used feature exatraction using TFIDtransformer.
+	4) Combined transformed columns using hstack and gave it to LogisticRegresion model.
+Testing :
+	1) Cleaned the Columns for NaN values.
+	2) Transformed Columns (Name,Desc,Keywords,Currency) into Countvectorized form.
+	3) Combined transformed columns using hstack.
+	4) Predicted the values.
